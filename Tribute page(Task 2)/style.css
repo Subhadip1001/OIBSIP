@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width: 100%;
+    height: 100vmin;
+    padding: 50px;
+    display: flex;
+    background-color: rgba(255, 225, 0, 0.074);
+}
+
+.text{
+    width: 60%;
+}
+
+.text h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgba(255, 166, 0, 0.399);
+}
+
+.text p{
+    text-wrap: wrap;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-weight: 700;
+}
+
+.text .biography{
+    margin-top: 30px;
+}
+
+.text li{
+    font-size: 18px;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    font-weight: 550;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.image{
+    width: 40%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(5px 5px 8px rgb(0,0,0,0.5));
+}

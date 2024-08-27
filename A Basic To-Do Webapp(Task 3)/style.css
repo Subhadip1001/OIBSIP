@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, black, darkblue, blue);
+}
+
+#headding{
+    background: rgba(255, 255, 255, 0.627);
+    height: 60px;
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.input-container{
+    width: 25%;
+    height: 25%;
+    background: rgba(255, 255, 255, 0.627);
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.397); */
+}
+.input-container input,textarea,#add-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-container input{
+    padding: 10px 15px;
+}
+.input-container textarea{
+    height: 150px;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    padding: 10px;
+    resize: none;
+    font-size: 16px;
+    /* background-color: rgba(255, 255, 255, 0.566);
+    border: 2px solid darkblue; */
+}
+#add-btn{
+    padding: 8px;
+    background: linear-gradient(45deg, darkblue, blue);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0.75rem;
+    cursor: pointer;
+}
+
+.task-container{
+    width: 30%;
+    background: rgba(255, 255, 255, 0.627);
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 1rem;
+}
+.header{
+    font-size: 16px;
+    border-bottom: 2px solid darkblue;
+    color: white;
+}
+.card{
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    background-color: rgba(252, 253, 252, 0.488);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgb(0,0,0,0.5);
+    padding: 5px;
+}
+
+#btn-container{
+    margin-top: 0.25rem;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#btn-container button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+#title{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#description{
+    font-size: 12px;
+}
+.delete-btn{
+    color: rgba(255, 0, 0, 0.648);
+}
+.check-btn{
+    font-size: 16px;
+    color: green;
+}
+.done{
+    text-decoration: line-through 2px solid red;
+    /* color: white; */
+}
